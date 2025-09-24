@@ -93,18 +93,17 @@ body {
 
 }
 
+
 .tab-letest>ul>li>a:hover {
     color: red !important;
     background-color: white;
     border-bottom: 2px solid red;
     border-width: 100%;
-        transition: all 0.5s;
 
 }
 
 .hover-world a:hover {
     color: red !important;
-    transition: all 0.5s;
 }
 
 .tranding-heading {
@@ -279,6 +278,13 @@ li.text-danger:nth-child(1) {
 .category::-webkit-scrollbar-thumb:hover{
     background-color: rgb(201, 201, 201);
 }
-/* .category::-webkit-scrollbar-track{
-    background-color: rgb(235, 235, 235);
-} */
+.tab-letest>ul>li>a{
+    border-bottom: 2px solid transparent;
+    transition: all 0.5s;
+}
+.header-nav>ul>li>a{
+    transition: all 0.5s;
+}
+.hover-world a{
+    transition: all 0.5s;
+}
